@@ -69,7 +69,7 @@ def detect_labels(photo, bucket):
     return len(response['Labels'])
 
 def main():
-    photo = ''
+    photo = 'girl-6920625_1280.jpg'
     bucket = 'my-rekognition-label-maker'
     label_count = detect_labels(photo, bucket)
     print("Labels detected:", label_count)
