@@ -8,8 +8,8 @@ This Python script utilizes Amazon Rekognition, a deep learning-based image anal
 
 2. Install the required Python packages using pip:
 
-pip install boto3
-pip install matplotlib
+`pip install boto3`
+`pip install matplotlib`
 
 3. Set up your AWS credentials to allow access to Amazon Rekognition and your S3 bucket. You can do this by configuring the AWS CLI or by setting environment variables.
 
@@ -23,20 +23,21 @@ pip install matplotlib
 
 4. Run the script:
 
-python rekognition_label_generator.py
+`python rekognition_label_generator.py`
 
 5. The script will display the input image with bounding boxes and labels for detected objects, scenes, and faces.
 
+## Architectural diagram
+
+![Architectural Diagram](./architecturalDiagram.png)
+
+- _Architectural diagram created by Lucy Wang_.
+
 ## Results example
 
-1. `emotionRekognition.png`: A picture of a girl.
-2. `tableWithLabels.png`: A picture of table with various things.
+![Emotion Rekognition](./emotionRekognition.png)
 
-## Results example
-
-Architectural diagram
-
-`architecturalDiagram`: A picture of a architectural diagram.
+![Table With Labels](./tableWithLabels.png)
 
 ## Dependencies
 
